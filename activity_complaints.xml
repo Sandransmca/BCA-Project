@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".complaints">
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_gravity="center"
+android:gravity="center"
+android:layout_height="wrap_content"
+android:layout_marginTop="15dp"
+    android:orientation="horizontal">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="GRIEVANCE"
+    android:id="@+id/grievance"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    />
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/teacher"></ImageView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:id="@+id/teaching"
+    android:textSize="20dp"
+    android:layout_height="wrap_content"
+    android:text="TEACHING"></TextView>
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/student"></ImageView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:id="@+id/opinion"
+    android:textSize="20dp"
+    android:layout_height="wrap_content"
+    android:text="OPINION"></TextView>
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/sports"></ImageView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:id="@+id/sports"
+    android:textSize="20dp"
+    android:layout_height="wrap_content"
+    android:text="SPORTS"></TextView>
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/amenities"></ImageView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:id="@+id/amenities"
+    android:textSize="20dp"
+    android:layout_height="wrap_content"
+    android:text="AMENITIES"></TextView>
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/others"></ImageView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:id="@+id/others"
+    android:textSize="20dp"
+    android:layout_height="wrap_content"
+    android:text="OTHERS"></TextView>
+</LinearLayout>
+</LinearLayout>
