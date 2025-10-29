@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2,3"
+    android:layout_margin="8dp"
+    tools:context=".counselling">
+    <TableRow>
+        <TextView
+            android:text="Name"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_column="1"/>
+        <TextView
+            android:text="Email"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_column="1"/>
+        <TextView
+            android:text="Phone Number"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_column="1"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Anu Joseph"
+            android:textSize="16dp"
+            android:layout_column="1"/>
+    <TextView
+        android:text="anu@gmail.com"
+        android:textSize="16dp"
+        android:layout_column="2"/>
+        <TextView
+            android:text="9495002189"
+            android:textSize="16dp"
+            android:layout_column="2"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Anagha"
+            android:textSize="16dp"
+            android:layout_column="1"/>
+        <TextView
+            android:text="anagha@gmail.com"
+            android:textSize="16dp"
+            android:layout_column="2"/>
+        <TextView
+            android:text="8078708871"
+            android:textSize="16dp"
+            android:layout_column="2"/>
+    </TableRow>
+
+
+
+
+</TableLayout>
