@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".womenscell">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/immediateaction"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/immediateaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:textSize="20dp"
+        android:text="Immediate Action" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/getacall"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/getacall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:textSize="20dp"
+        android:text="Get a Call" />
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/counselling"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/counselling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:textSize="20dp"
+        android:text="Counselling" />
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/about"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:textSize="20dp"
+        android:text="About" />
+
+    </LinearLayout>
+</ScrollView>
