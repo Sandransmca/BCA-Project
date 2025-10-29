@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.grievanceapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GrievanceApp"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".about" />
+        <activity android:name=".counselling" />
+        <activity android:name=".getacall" />
+        <activity android:name=".immediateaction" />
+        <activity android:name=".womenscell" />
+        <activity android:name=".others" />
+        <activity android:name=".amenities" />
+        <activity android:name=".opinion" />
+        <activity android:name=".sports" />
+        <activity android:name=".teaching" />
+        <activity
+            android:name=".womencell"
+            android:label="@string/title_activity_womencell"
+            android:theme="@style/Theme.GrievanceApp.NoActionBar" />
+        <activity android:name=".complaints" />
+        <activity android:name=".shebox" />
+        <activity android:name=".grievance" />
+        <activity android:name=".Registeruser" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
